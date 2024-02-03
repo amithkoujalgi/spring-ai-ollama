@@ -1,0 +1,10 @@
+spring:
+  ai:
+    ollama:
+      base-url: "http://192.168.29.223:11434"
+      model: llama2
+      chat:
+        model: llama2
+springdoc:
+  swagger-ui:
+    path: /docs
